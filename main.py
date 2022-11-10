@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 
+
 app = Flask(__name__)
 
 
@@ -9,13 +10,23 @@ def index():
 
 
 @app.route("/about")
-def about_me():
+def about():
     return render_template("about.html")
 
 
 @app.route("/portfolio")
 def portfolio():
     return render_template("portfolio.html")
+
+
+@app.route("/portfolio/fakebook")
+def fakebook():
+    return render_template("fakebook.html")
+
+
+@app.route("/portfolio/hair-salon")
+def hair_salon():
+    return render_template("Hairsalon.index.html")
 
 
 if __name__ == '__main__':

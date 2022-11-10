@@ -1,0 +1,14 @@
+.my-moto {
+    font-family: Bradley Hand ITC;
+    color: green;
+    margin-right: 50px;
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: #c3d4ce;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: #DEFADE;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #164A41;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #9DC88D;
+}
+
+.right-poz {
+    float: right;
+}
+
+.rounded {
+    border-radius: 50%;
+    border: 6px #F1B241 solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+}
+
+.rounded:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.text {
+    font-family: verdana;
+    font-style: oblique strong;
+    color: #164A41;
+}
+
+.button {
+    transition-duration: 0.5s;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #164A41;
+    color: white;
+}
+
+.button:hover {
+    background-color: #F1B241;
+    color: white;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-family: verdana;
+}
+
+.h-center {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    background-color: #164A41;
+    padding: 40px;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
